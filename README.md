@@ -13,11 +13,11 @@ Built with:
 
 ## Setup & Run Instructions
 1. Clone the repository:
-   git clone https://github.com/your-username/flask-formmailer.git
+   git clone ```https://github.com/your-username/flask-formmailer.git```
    cd flask-formmailer
 
 2. Install dependencies:
-   pip install -r requirements.txt
+   ```pip install -r requirements.txt```
 
 3. Create a .env file with your secrets:
    SECRET_KEY=your_secret_key
@@ -25,9 +25,9 @@ Built with:
    MAIL_PASSWORD=your_app_password
 
 4. Run the app:
-   flask run
+   ```flask run```
    or
-   python app.py
+   ```python app.py```
 
 
 <img width="971" height="965" alt="image" src="https://github.com/user-attachments/assets/52664291-e43e-4592-8e43-72431c2f2648" />
