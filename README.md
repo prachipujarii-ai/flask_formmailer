@@ -103,21 +103,17 @@ http://127.0.0.1:5000
 
 ## 📸 Screenshots
 
-### Home Page
+### Form Interface:
+<img width="862" height="911" alt="image" src="https://github.com/user-attachments/assets/8fab0755-63c8-4751-868b-b78259ae7719" />
 
-> Add screenshot here
+### Success Message:
+<img width="986" height="930" alt="Screenshot 2026-06-02 003939" src="https://github.com/user-attachments/assets/2697fa84-6c42-417c-aba6-7b61f0bdd718" />
 
-### Contact Form
+### Email Received:
+<img width="870" height="420" alt="image" src="https://github.com/user-attachments/assets/8b7caaec-8eae-4935-bd53-4f1461682976" />
 
-> Add screenshot here
-
-### Success Message
-
-> Add screenshot here
-
-### Email Received
-
-> Add screenshot here
+### Database table:
+<img width="737" height="227" alt="image" src="https://github.com/user-attachments/assets/c0d1ae5a-d22c-42f2-b94d-1c1996644db6" />
 
 
 ## How It Works
