@@ -1,39 +1,168 @@
-## Project Overview
-This is a Flask web application that:
-- Accepts user form submissions (name, email, date, occupation)
-- Stores the data in a SQLite database
-- Sends a confirmation email to the user via Gmail SMTP
-- Displays a success message on the frontend
+# 📧 Flask Form Mailer
 
-Built with:
-- Flask
-- Flask-SQLAlchemy
-- Flask-Mail
-- SQLite
+A simple and responsive Flask web application that allows users to submit a contact form, stores the submitted data in an SQLite database, and sends automated email notifications using SMTP.
 
-## Setup & Run Instructions
-1. Clone the repository:
-   git clone ```https://github.com/your-username/flask-formmailer.git```
-   cd flask-formmailer
-
-2. Install dependencies:
-   ```pip install -r requirements.txt```
-
-3. Create a .env file with your secrets:
-   SECRET_KEY=your_secret_key
-   MAIL_USERNAME=your_email@gmail.com
-   MAIL_PASSWORD=your_app_password
-
-4. Run the app:
-   ```flask run```
-   or
-   ```python app.py```
-
-
-<img width="971" height="965" alt="image" src="https://github.com/user-attachments/assets/52664291-e43e-4592-8e43-72431c2f2648" />
+---
 
 ## Features
-- Form submission with validation
-- SQLite database storage
-- Email notifications via Gmail SMTP
-- Flash messages for user feedback
+- User-friendly contact form
+- Stores form submissions in an SQLite database
+- Sends email notifications automatically
+- Server-side form validation
+- Responsive and clean user interface
+- Lightweight Flask backend
+
+
+## 🛠️ Tech Stack
+- Python
+- Flask
+- SQLite
+- HTML5
+- CSS3
+- JavaScript
+- SMTP (Email)
+
+
+## 📂 Project Structure
+
+```text
+flask_formmailer/
+│── app.py
+│── database.db
+│── requirements.txt
+│── README.md
+│── .gitignore
+│── LICENSE
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+└── screenshots/
+    ├── home.png
+    ├── form.png
+    ├── success.png
+```
+
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/prachipujarii-ai/flask_formmailer.git
+```
+
+### 2. Navigate to the project folder
+```bash
+cd flask_formmailer
+```
+
+### 3. Create a virtual environment (Recommended)
+Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+macOS/Linux
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 4. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Configure Email Credentials
+Update your email credentials inside the project (or preferably use environment variables).
+
+Example:
+
+```python
+EMAIL_ADDRESS = "your_email@example.com"
+EMAIL_PASSWORD = "your_app_password"
+```
+
+
+### 6. Run the application
+```bash
+python app.py
+```
+
+Open your browser and visit
+```
+http://127.0.0.1:5000
+```
+
+
+## 📸 Screenshots
+
+### Home Page
+
+> Add screenshot here
+
+### Contact Form
+
+> Add screenshot here
+
+### Success Message
+
+> Add screenshot here
+
+### Email Received
+
+> Add screenshot here
+
+
+## How It Works
+1. User fills out the contact form.
+2. Flask validates the submitted data.
+3. Data is stored in the SQLite database.
+4. An email notification is sent using SMTP.
+5. A success message is displayed to the user.
+
+
+## Future Improvements
+- User authentication
+- Admin dashboard
+- File attachment support
+- Better form validation
+- PostgreSQL/MySQL integration
+- REST API support
+- Docker support
+- Deploy on Render or Railway
+
+
+## Requirements
+- Python 3.10+
+- Flask
+- SQLite
+- SMTP-enabled email account
+
+
+Install all dependencies using:
+```bash
+pip install -r requirements.txt
+```
+
+
+## License
+
+This project is licensed under the MIT License.
+
+
+## Author
+
+**Prachi Pujari**
+
+GitHub  
+https://github.com/prachipujarii-ai
+
+LinkedIn  
+https://www.linkedin.com/in/prachi-pujari-b77908312/
