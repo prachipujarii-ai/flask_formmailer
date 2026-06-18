@@ -13,7 +13,7 @@ A simple and responsive Flask web application that allows users to submit a cont
 - Lightweight Flask backend
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python
 - Flask
 - SQLite
@@ -49,7 +49,7 @@ flask_formmailer/
 ```
 
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
@@ -101,7 +101,7 @@ http://127.0.0.1:5000
 ```
 
 
-## 📸 Screenshots
+## Screenshots
 
 ### Form Interface:
 <img width="862" height="911" alt="image" src="https://github.com/user-attachments/assets/8fab0755-63c8-4751-868b-b78259ae7719" />
