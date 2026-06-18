@@ -106,6 +106,9 @@ http://127.0.0.1:5000
 ### Form Interface:
 <img width="862" height="911" alt="image" src="https://github.com/user-attachments/assets/8fab0755-63c8-4751-868b-b78259ae7719" />
 
+### Information filled:
+<img width="792" height="853" alt="Screenshot 2026-06-18 160642" src="https://github.com/user-attachments/assets/55b0f2e6-da26-41df-b2ff-6fb7357eae91" />
+
 ### Success Message:
 <img width="986" height="930" alt="Screenshot 2026-06-02 003939" src="https://github.com/user-attachments/assets/2697fa84-6c42-417c-aba6-7b61f0bdd718" />
 
